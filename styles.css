@@ -1,0 +1,14 @@
+
+  #resultContainer {
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+  }
+
+  #resultContainer span {
+    display: inline-block;
+    width: 40px; /* Adjust the width to fit your matrix elements */
+    text-align: center;
+  }
+#m2{
+  display: var(m2s);
+}

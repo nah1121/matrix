@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Matrix Operations</title>
+</head>
+<body>
+  <h1>Matrix Operations</h1>
+  <p>Enter the first matrix (space separated values, rows separated by newlines):</p>
+  <textarea id="matrix1Input" rows="4" cols="30"></textarea>
+  <br>
+  <p>Select an operation:</p>
+  <select id="operatorSelect">
+    <option value="">Select an operator</option>
+    <option id="q" value="+">Addition (+)</option>
+    <option id="q" value="-">Subtraction (-)</option>
+    <option id="q" value="*">Multiplication (*)</option>
+    <option value="t">Transpose (T)</option>
+    <option value="det">Determinant (det)</option>
+    <option value="inv">Inverse (inv)</option>
+  </select>
+  <br>
+  <div id="m2">
+  <p>Enter the second matrix (if applicable):</p>
+  <textarea id="matrix2Input" rows="4" cols="30"></textarea>
+  </div><br>
+  <button onclick="calculate()">Calculate</button>
+  <br>
+  <p>Result:</p>
+  <div id="resultContainer"></div>
+
+  <script src="sc.js"></script>
+</body>
+</html>
