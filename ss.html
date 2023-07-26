@@ -4,13 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
   <title>Matrix Operations</title>
 </head>
 <body>
+  <div class="content">
+    
   <h1>Matrix Operations.</h1>
-  <p>Enter the first matrix (space separated values, rows separated by newlines):</p>
+  <div class="m1"><p>Enter the first matrix (space separated values, rows separated by newlines):</p>
   <textarea id="matrix1Input" rows="4" cols="30"></textarea>
-  <br>
+  </div><br><div class="o">
   <p>Select an operation:</p>
   <select id="operatorSelect">
     <option value="">Select an operator</option>
@@ -20,9 +28,9 @@
     <option value="t">Transpose (T)</option>
     <option value="det">Determinant (det)</option>
     <option value="inv">Inverse (inv)</option>
-  </select>
+  </select></div>
   <br>
-  <div id="m2">
+  <div class="m2">
   <p>Enter the second matrix (if applicable):</p>
   <textarea id="matrix2Input" rows="4" cols="30"></textarea>
   </div><br>
@@ -30,7 +38,7 @@
   <br>
   <p>Result:</p>
   <div id="resultContainer"></div>
-
+</div>
   <script src="sc.js"></script>
 </body>
 </html>
