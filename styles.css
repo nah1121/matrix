@@ -102,7 +102,7 @@ select {
 select:focus {
   border-radius: 10px;
   border: none;
-  border-color: red;
+  border-color: rgb(0, 0, 0);
   background: none;
   outline: none;
 }
