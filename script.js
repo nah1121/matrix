@@ -231,27 +231,6 @@ function calculate() {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 setSelectHover();
 
 function setSelectHover(selector = "select") {
