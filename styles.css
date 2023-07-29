@@ -58,9 +58,7 @@ body p{
   font-size: 20px;
   margin: 0 auto; 
 }
-select{
-  
-}
+
 select option{
   font-family: "Bungee hairline";
   font-weight: 800;
@@ -73,12 +71,6 @@ select option{
   transition: 0.3s ease-in-out;
   
 }
-
-
-
-
-
-
 
 select {
   --selectHoverCol: rgb(0,255,42);
@@ -120,18 +112,6 @@ option:hover {
 option:checked {
   box-shadow: 0 0 1em 100px var(--selectedCol) inset;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 button{
   background-color: #000;
